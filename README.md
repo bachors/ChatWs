@@ -1,5 +1,6 @@
 # ChatWs
 Contoh aplikasi chatting sederhana yang dibuat menggunakan PHP + jQuery + Websocket.
+<p>Dulu saya pernah share <a href="http://ibacor.com/blog/create-public-chat-with-php-mysql-and-ajax">aplikasi chtting menggunakan AJAX</a> (long poling), sekarang saya akan share aplikasi chatting menggunakan WebSocket secara realtime tanpa harus reload setiap detik bahkan tanpa database. Tapi sobat juga bisa menambahkan database untuk menyimpan histori chattingan jadi setiap user yang baru login bisa melihat semua pesan sebelum dia login. Mungkin next time saya akan share yang versi database.y :)</p>
 <h2>Usage</h2>
 <h3>CSS</h3>
 <pre>&lt;link href="src/chatws.css" rel="stylesheet"/&gt;</pre>
@@ -28,4 +29,4 @@ Sekarang kita jalankan script chatws.php nya. Jika sobat menggunakan XAMPP seper
 <h3>Done</h3>
 <p>Sekarang tinggal buka di web browser <code>http://localhost/demo/index.php</code> :)</p>
 <img src="https://3.bp.blogspot.com/-fyL8r_BtjC0/V2BAqa9XaCI/AAAAAAAABqg/u2YKS_Z0RS8a4wVT2vqHGbJU7i41MQZmwCLcB/s1600/dsdeeeew.jpg"/>
-<a href="http://ibacor.com/sosmed/youtube"><h2>DEMO</h2></a>
+<a href="http://ibacor.com/sosmed/youtube?video=nNBEAygY-B0"><h2>DEMO</h2></a>

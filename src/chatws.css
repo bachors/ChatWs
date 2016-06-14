@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	background: #e6e2d6;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#konten {
+	margin-top: 100px
+}
+
+.tabs {
+	display: block;
+	background: #09776C;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 99999999999999;														
+}
+
+.tab {
+	display: inline-block;
+	padding: 0px;
+	width: 50%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	-webkit-box-shadow:  0px 4px 5px 1px rgba(0, 0, 0, .1);
+	-moz-box-shadow:   0px 4px 5px 1px rgba(0, 0, 0, .1);
+	box-shadow:  0px 4px 5px 1px rgba(0, 0, 0, .1);													
+}
+
+.tabs .aktip,.tab:hover {
+	background: #075e55;
+}
+
+.username {
+	color: #3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.username:focus {
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+	padding: 13px;
+}
+
+#button-blue {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float: left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor: pointer;
+	background-color: #3B8BBA;
+	color: white;
+	font-size: 24px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 700;
+}
+
+.users {
+	position: relative;
+	background: #fff;
+}
+
+.users .user {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 15px;
+}
+
+.chat #message_box {
+	white-space: pre-line;
+	line-height: 0;
+	position: relative;
+	bottom: 50px;
+}
+
+.welcome {
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+	padding: 15px;
+	background: #FFA8A8;
+	color: #fff
+}
+
+.bubble-center,
+.bubble-left,
+.bubble-right {
+	line-height: 100%;
+	display: block;
+	position: relative;
+	padding: .5em;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 5px;
+	margin-bottom: 1.5em;
+	clear: both;
+	max-width: 80%;
+	border: 1px solid #dadada
+}
+
+#message_box p {
+	margin: 0;
+}
+
+#message_box .disconnected {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1.5em;
+	color: #fff;
+	background: #FFA8A8
+}
+
+#message_box .connected {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1.5em;
+	background: #d6eaf5;
+	color: #777;
+}
+
+.bubble-left {
+	float: left;
+	margin-right: 10%;
+	background: #fff;
+}
+
+.bubble-right {
+	float: right;
+	margin-left: 10%;
+	background: #e2ffc7;
+}
+
+.chat #message_box .name {
+	color: #555;
+	display: block;
+	margin-bottom: 6px;
+}
+
+a.keluar {
+	float: right;
+	background: #FFA8A8;
+	color: #fff;
+	padding: 5px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.chat #message_box .dat {
+	color: #777;
+	display: block;
+	margin-top: 6px;
+	font-size: 10px;
+	text-align: right;
+}
+
+.chat #message_box .bubble-right .name {
+	display: none;
+}
+
+.chat #message_box .msgc {
+	color: #333;
+}
+
+.chat #msg_form {
+	padding-top: 1.5px;
+	display: block;
+}
+
+sup {
+	background: #fff;
+	color: #222;
+	border-radius: 50%;
+	padding: 1px 5px;
+}
+
+.chat #message {
+	display: block;
+	width: 100%;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	-webkit-box-shadow:  0px -2px 4px 2px rgba(0, 0, 0, .1);
+	-moz-box-shadow:   0px -2px 4px 2px rgba(0, 0, 0, .1);
+	box-shadow:  0px -2px 4px 2px rgba(0, 0, 0, .1);							
+}
+
+footer {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	color: #777;
+	font-size: 12px;
+}
+
+footer a {
+	color: #3B8BBA;
+	text-decoration: none;
+}
+
+.chat #message:focus {
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+	padding: 13px;
+}
+
+div.error {
+	background-color: #FF8F8F;
+	padding: 0px 20px;
+	color: #fff;
+	text-align: center;
+}

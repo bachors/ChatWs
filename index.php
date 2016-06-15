@@ -58,7 +58,7 @@
 		<input id="u_name" type="hidden" value="<?php echo $username ?>"/>
 		<input id="u_date" type="hidden" value="<?php echo date("Y/m/d h:i:sa") ?>"/>
 		<input id="u_pergi" type="hidden" value="<?php echo (empty($_GET['pergi']) ? '' : $_GET['pergi']) ?>"/>
-		<input id="u_color" type="hidden" value="<?php echo (isset($_SESSION['color']) ? $_SESSION['color'] : '') ?>"/>
+		<input id="u_color" type="hidden" value="<?php echo $colours[$user_colour] ?>"/>
 	
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
